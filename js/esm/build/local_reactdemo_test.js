@@ -1,0 +1,1 @@
+import{jsx as e,jsxs as o}from"react/jsx-runtime";function t({who:r}){return o("div",{children:[e("strong",{children:"Hello from local_reactdemo \u{1F44B}"}),o("div",{children:["User: ",r]})]})}export{t as default};

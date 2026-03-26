@@ -62,7 +62,7 @@ function App(props) {
     <div>
       {label || "Hello from my new file"}
       <br />
-      <Button label="Modal form?" onClick={() => loadModalForm(props)} />
+      <Button label="Modal form" onClick={() => loadModalForm(props)} />
     </div>
   );
 }

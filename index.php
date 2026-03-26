@@ -26,6 +26,8 @@ require_once(__DIR__ . '/../../config.php');
 
 require_login();
 
+$contextid = required_param('contextid', PARAM_INT);
+
 $context = context_system::instance();
 $PAGE->set_context($context);
 $PAGE->set_url(new \core\url('/local/reactdemo/index.php'));
@@ -38,7 +40,7 @@ echo $OUTPUT->render_from_template(
     'local_reactdemo/local_reactdemo_test',
     [
         'who' => fullname($USER),
-        'contextid' => $context->id,
+        'contextid' => $contextid,
     ]
 );
 

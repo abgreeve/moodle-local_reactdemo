@@ -26,5 +26,6 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'React demo';
 $string['modal'] = 'Modal';
-$string['text'] = 'Fetched text using string manger!';
+$string['text'] = 'Fetched text using core/str';
 $string['modal_header'] = 'Modal open in react!';
+$string['searchcourses'] = 'Search for courses';
